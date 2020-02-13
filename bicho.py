@@ -7,7 +7,7 @@ r = requests.get(URL)
 
 print(r.status_code)
 
-TelegramBot = telepot.Bot('951983791:AAH5fYW1KmTAOMD1bAult-3SQo17NBrLO_Y')
+TelegramBot = telepot.Bot('Insira aqui seu token')
 
 with open("update_id.txt", "r") as f:
     ult_updt = f.read()
